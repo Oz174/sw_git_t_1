@@ -1,0 +1,21 @@
+input[type=submit] {
+  background-color: red;
+  color: white;
+  padding: 8px;
+}
+*{
+  box-sizing: border-box;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 16px;
+}
+form input{
+  max-width: 300px;
+}
+input[type=email],[type=text],[type=password] {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
