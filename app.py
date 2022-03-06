@@ -26,9 +26,12 @@ def sign_up():
     else:
         return "<h3>This user already exists</h3>"
 
-
+def fun():
+    return
 def user_exists(email, username, password):
+
     #search for the user it's like FindOne in js 
+
     for user in users:
         if user['username'] == username or user['email']==email:
             return True
